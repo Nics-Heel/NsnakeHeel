@@ -48,6 +48,12 @@
         float: left;
         width: 50%;
     }
+    div#formulario > p {
+        font-size: 1.0em;
+}
+    div#formulario > h1{
+        font-size: 2.5em;
+    }
     .textomobile {
         display: none;
     }
