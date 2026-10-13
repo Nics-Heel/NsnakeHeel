@@ -1,6 +1,14 @@
 @charset "UTF_8";
 
+/*
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: de 768px até 992px
+Desktop: 992px de até 1200px
+Telas Grandes: acima de 1200px
+*/
 
+/* Tela de Tablet : */
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
     body {
@@ -9,7 +17,9 @@
 
     section#login {
         width: 80vw;
+        height: 350px;
     }
+
     section#login > div#imagem {
         float: left;
         width: 30%;
@@ -19,6 +29,7 @@
     section#login > div#formulario{
         float: right;
         width: 70%;
+        font-size: 1em;
     } 
     .textomobile {
         display: none;
@@ -28,6 +39,7 @@
     }
 }
 
+/* Tela de PC: */
 @media screen and (min-width: 992px) {
     
     body {
@@ -36,8 +48,7 @@
 
     section#login {
         width: 950px;
-
-
+        height: 420px;
     }
 
     section#login > div#imagem { 
